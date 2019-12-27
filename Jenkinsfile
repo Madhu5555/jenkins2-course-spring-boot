@@ -15,7 +15,7 @@ pipeline {
       }
       steps {
 			// Some Step
-	      powershell label: '', script: 'mvn clean package'
+	      powershell label: '', script: 'mvn -f spring-boot-samples/spring-boot-sample-atmosphere/pom.xml clean package'
       }
     }
   }
