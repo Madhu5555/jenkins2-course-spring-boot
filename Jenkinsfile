@@ -11,7 +11,7 @@ pipeline {
       tools {
         // Specify Tool Name from your global tool configuration
 		jdk 'jdk8'
-        maven 'maven-3.6.1'
+        maven 'Maven'
       }
       steps {
 			// Some Step
